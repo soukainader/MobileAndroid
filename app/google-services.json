@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1010272808101",
+    "project_id": "talkversity-47c39",
+    "storage_bucket": "talkversity-47c39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010272808101:android:d1de2a5ed6fb98b6c2314c",
+        "android_client_info": {
+          "package_name": "com.example.projet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010272808101-95ad2np0h88312eam1bleiacpqsqmq80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpOUCqtg_uihtJMkwstW8aBXzyCChuIhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010272808101-95ad2np0h88312eam1bleiacpqsqmq80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

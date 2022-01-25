@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommentActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext"
+        android:backgroundTint="#5f2656"
+        app:title="Comments"
+        app:titleTextColor="#fff" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/pp"
+            app:civ_border_color="@android:color/black"
+            app:civ_border_width="0.5dp" />
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/ic_send"
+            android:layout_gravity="end"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/send"
+            android:layout_centerVertical="true"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_toEndOf="@id/profile_image"
+            android:layout_toStartOf="@id/send"
+            android:background="@drawable/comment_edit"
+            android:layout_marginStart="2dp"
+            android:id="@+id/comment_edit"
+            android:hint="Leave a comment.."
+            android:textColor="@android:color/black" />
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No comments"
+        android:textSize="30dp" />
+
+</RelativeLayout>

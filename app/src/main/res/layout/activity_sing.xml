@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="126dp"
+        android:layout_height="157dp"
+        android:paddingBottom="10dp"
+        android:src="@drawable/top" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/regUserPhoto"
+        android:layout_width="267dp"
+        android:layout_height="201dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-75dp"
+        android:src="@drawable/add" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:shadowColor="#5f2656"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:text="Sing up"
+        android:textColor="#5f2656"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="to join ENSAH community"
+        android:textColor="#5f2656"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sign"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="5dp"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sign"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="5dp"
+        android:hint="Email address"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sign"
+        android:drawableLeft="@drawable/ic_baseline_https_24"
+        android:drawablePadding="5dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/verpassword"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sign"
+        android:drawableLeft="@drawable/ic_baseline_https_24"
+        android:drawablePadding="5dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="310dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button"
+        android:text="Sign Up"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+
+    <ProgressBar
+        android:id="@+id/regProgressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:indeterminateTint="#5f2656"
+        android:indeterminateTintMode="src_atop"
+        android:layout_marginTop="-55dp"/>
+
+    <TextView
+        android:id="@+id/log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="I'm already registred"
+        android:textColor="#5f2656"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="126dp"
+        android:layout_height="95dp"
+        android:layout_gravity="end"
+        android:paddingBottom="-10dp"
+        android:src="@drawable/bottom" />
+
+
+
+
+</LinearLayout>
